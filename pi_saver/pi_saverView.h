@@ -12,7 +12,6 @@
     float totalPoints;
     float inCircle;
     
-    NSPoint lastPoint;
     NSMutableArray *points;
     
     NSDate *lastPointAdded;

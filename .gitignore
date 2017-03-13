@@ -1,4 +1,5 @@
 Products/*.saver
+*.xcuserstate
 
 ## Various settings
 *.pbxuser

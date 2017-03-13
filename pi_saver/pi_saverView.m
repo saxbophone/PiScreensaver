@@ -91,7 +91,7 @@
 {
     // Add a point if it's been more than .25 secs
     if ([lastPointAdded timeIntervalSinceNow] < -0.25) {
-        lastPoint = [self addPoint];
+        NSPoint lastPoint = [self addPoint];
         [points addObject:[NSValue valueWithPoint:lastPoint]];
         lastPointAdded = [NSDate date];
     }
