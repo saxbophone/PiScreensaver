@@ -11,3 +11,6 @@ Products/*.saver
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+
+# build folder
+build
